@@ -67,7 +67,7 @@ class Assembler:
                 if symbol_name not in self.symbol_table:
                     self.symbol_table[symbol_name] = real_instruction_count
                 else:
-                    print(f"Symbol reference name occupied: '${symbol_name}'.",
+                    print(f"Symbol reference name occupied: '{symbol_name}'.",
                           file=sys.stderr)
                     sys.exit(1)
             else:
@@ -92,16 +92,16 @@ class Assembler:
             if not match:
                 print(f"Can not compile c instruction: '{instruction}'")
                 sys.exit(1)
-            destination: Optional[str] = match.group(1)
+            destination: str = match.group(1)
             computation: str = match.group(2)
-            jump: Optional[str] = match.group(3)
+            jump: str = match.group(3)
             # Normalize
             if destination:
                 destination = ''.join(sorted(destination))
             computation = re.sub(r'\s', '', computation)    # Remove spaces
             
             def get_destination_bits() -> int:
-                if destination is None:
+                if not destination:
                     destination_bits = 0b000
                 elif destination == 'A':
                     destination_bits = 0b100
@@ -118,13 +118,13 @@ class Assembler:
                 elif destination == 'ADM':
                     destination_bits = 0b111
                 else:
-                    print(f"Destination not recognized: '${destination}'.",
+                    print(f"Destination not recognized: '{destination}'.",
                             file=sys.stderr)
                     sys.exit(1)
                 return destination_bits
             
             def get_jump_bits() -> int:
-                if jump is None:
+                if not jump:
                     jump_bits = 0b000
                 elif jump == 'JLT':
                     jump_bits = 0b100
@@ -141,7 +141,7 @@ class Assembler:
                 elif jump == 'JMP':
                     jump_bits = 0b111
                 else:
-                    print(f"Jump flag not recognized: '${jump}'.",
+                    print(f"Jump flag not recognized: '{jump}'.",
                             file=sys.stderr)
                     sys.exit(1)
                 return jump_bits
