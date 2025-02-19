@@ -1,7 +1,7 @@
 import os
 import re
 import sys
-from typing import Dict, List, Optional
+from typing import Dict, List
 
 
 class Assembler:
@@ -23,10 +23,11 @@ class Assembler:
                 # Remove comments lines and blank lines
                 pass
             elif match := re.match(r"(.*)//.*", instruction):
-                # Remove inline comments
-                instruction = match.group(1).strip()
+                instruction = match.group(1)    # Remove inline comments
+                instruction = re.sub(r'\s', '', instruction)    # Remove spaces
                 _program += instruction + '\n'
             else:
+                instruction = re.sub(r'\s', '', instruction)
                 _program += instruction + '\n'
         self.program = _program
     
@@ -87,7 +88,7 @@ class Assembler:
         self.__resolve_symbol_references()
 
         def compile_c_assembly_instruction(instruction: str) -> int:
-            c_asm_pattern = r"^(?:(.*?)\s*=\s*)?(.*?)\s*(?:;\s*(.*?))?$"
+            c_asm_pattern = r"^(?:(.*?)=)?(.*?)(?:;(.*?))?$"
             match = re.match(c_asm_pattern, instruction)
             if not match:
                 print(f"Can not compile c instruction: '{instruction}'")
@@ -98,7 +99,6 @@ class Assembler:
             # Normalize
             if destination:
                 destination = ''.join(sorted(destination))
-            computation = re.sub(r'\s', '', computation)    # Remove spaces
             
             def get_destination_bits() -> int:
                 if not destination:
@@ -225,6 +225,8 @@ class Assembler:
         machine_instructions: List[int] = []
         for asm_instruction in asm_instructions:
             if match := re.match(r"^@(\d+)$",
+                                asm_instruction) or \
+                        re.match(fr"^A=(\d+)$",
                                 asm_instruction):
                 # A instruction with immediate value 
                 value = int(match.group(1))
@@ -232,7 +234,9 @@ class Assembler:
                 machine_instruction = value
                 machine_instructions.append(machine_instruction)
             elif match := re.match(fr"^@({Assembler.LABEL_PATTERN})$",
-                                asm_instruction):   # A instruction
+                                asm_instruction) or \
+                            re.match(fr"^A=({Assembler.LABEL_PATTERN})$",
+                                     asm_instruction):   # A instruction
                 variable_name: str = match.group(1)
                 if variable_name not in self.symbol_table:  # Variable declare
                     self.symbol_table[variable_name] = variable_count
