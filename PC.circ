@@ -18,8 +18,8 @@
   <lib desc="#BFH-Praktika" name="9"/>
   <lib desc="#Input/Output-Extra" name="10"/>
   <lib desc="#Soc" name="11"/>
-  <lib desc="file#basic.circ" name="12"/>
-  <lib desc="file#mem.circ" name="13"/>
+  <lib desc="file#mem.circ" name="12"/>
+  <lib desc="file#basic.circ" name="13"/>
   <lib desc="file#ALU.circ" name="14"/>
   <main name="VonNeumannPC_x16"/>
   <options>
@@ -407,8 +407,21 @@
       <a name="labelfont" val="Dialog bold 13"/>
     </comp>
     <comp lib="0" loc="(3420,1060)" name="Splitter">
+      <a name="bit10" val="1"/>
+      <a name="bit11" val="1"/>
+      <a name="bit12" val="1"/>
+      <a name="bit13" val="1"/>
+      <a name="bit14" val="1"/>
+      <a name="bit15" val="1"/>
+      <a name="bit2" val="1"/>
+      <a name="bit3" val="1"/>
+      <a name="bit4" val="1"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
       <a name="facing" val="north"/>
-      <a name="fanout" val="16"/>
       <a name="incoming" val="16"/>
     </comp>
     <comp lib="0" loc="(3420,1080)" name="Tunnel">
@@ -422,13 +435,35 @@
       <a name="label" val="clk"/>
       <a name="labelfont" val="Dialog bold 13"/>
     </comp>
-    <comp lib="0" loc="(3490,1050)" name="Constant">
+    <comp lib="0" loc="(3490,1140)" name="Tunnel">
       <a name="facing" val="north"/>
+      <a name="label" val="IO6"/>
+      <a name="labelfont" val="SansSerif bold 13"/>
+      <a name="width" val="16"/>
     </comp>
     <comp lib="0" loc="(350,260)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="LT"/>
       <a name="labelfont" val="Dialog bold 13"/>
+    </comp>
+    <comp lib="0" loc="(3500,1100)" name="Splitter">
+      <a name="appear" val="center"/>
+      <a name="bit10" val="1"/>
+      <a name="bit11" val="1"/>
+      <a name="bit12" val="1"/>
+      <a name="bit13" val="1"/>
+      <a name="bit14" val="1"/>
+      <a name="bit15" val="1"/>
+      <a name="bit2" val="1"/>
+      <a name="bit3" val="1"/>
+      <a name="bit4" val="1"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="facing" val="north"/>
+      <a name="incoming" val="16"/>
     </comp>
     <comp lib="0" loc="(3510,1190)" name="Splitter">
       <a name="appear" val="center"/>
@@ -664,37 +699,37 @@
       <a name="label" val="ALU_or_Data"/>
       <a name="labelfont" val="Dialog bold 13"/>
     </comp>
-    <comp lib="12" loc="(1880,1450)" name="dmux8"/>
-    <comp lib="12" loc="(1930,460)" name="dmux_x"/>
-    <comp lib="12" loc="(260,160)" name="mux8"/>
-    <comp lib="12" loc="(2740,1410)" name="mux8_x16">
+    <comp lib="12" loc="(1330,120)" name="reg_x16"/>
+    <comp lib="12" loc="(1330,300)" name="reg_x16"/>
+    <comp lib="12" loc="(1370,1350)" name="pc_x16"/>
+    <comp lib="12" loc="(2310,1100)" name="reg_x16"/>
+    <comp lib="12" loc="(2310,1250)" name="reg_x16"/>
+    <comp lib="12" loc="(2310,1400)" name="reg_x16"/>
+    <comp lib="12" loc="(2310,1550)" name="reg_x16"/>
+    <comp lib="12" loc="(2310,1700)" name="reg_x16"/>
+    <comp lib="12" loc="(2310,1850)" name="reg_x16"/>
+    <comp lib="12" loc="(2310,2000)" name="reg_x16"/>
+    <comp lib="12" loc="(2310,960)" name="reg_x16"/>
+    <comp lib="13" loc="(1880,1450)" name="dmux8"/>
+    <comp lib="13" loc="(1930,460)" name="dmux_x"/>
+    <comp lib="13" loc="(260,160)" name="mux8"/>
+    <comp lib="13" loc="(2740,1410)" name="mux8_x16">
       <a name="facing" val="south"/>
       <a name="label" val="ReadControl"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="12" loc="(300,720)" name="mux_x16"/>
-    <comp lib="12" loc="(3010,620)" name="mux_x16"/>
-    <comp lib="12" loc="(580,670)" name="or16_x"/>
-    <comp lib="12" loc="(640,910)" name="not_x"/>
-    <comp lib="12" loc="(730,670)" name="not_x"/>
-    <comp lib="12" loc="(860,700)" name="or_x"/>
-    <comp lib="12" loc="(980,770)" name="not_x"/>
-    <comp lib="12" loc="(990,110)" name="mux_x"/>
-    <comp lib="12" loc="(990,230)" name="mux_x16"/>
-    <comp lib="12" loc="(990,350)" name="mux_x"/>
-    <comp lib="12" loc="(990,450)" name="mux_x"/>
-    <comp lib="12" loc="(990,540)" name="mux_x"/>
-    <comp lib="13" loc="(1330,120)" name="reg_x16"/>
-    <comp lib="13" loc="(1330,300)" name="reg_x16"/>
-    <comp lib="13" loc="(1370,1350)" name="pc_x16"/>
-    <comp lib="13" loc="(2310,1100)" name="reg_x16"/>
-    <comp lib="13" loc="(2310,1250)" name="reg_x16"/>
-    <comp lib="13" loc="(2310,1400)" name="reg_x16"/>
-    <comp lib="13" loc="(2310,1550)" name="reg_x16"/>
-    <comp lib="13" loc="(2310,1700)" name="reg_x16"/>
-    <comp lib="13" loc="(2310,1850)" name="reg_x16"/>
-    <comp lib="13" loc="(2310,2000)" name="reg_x16"/>
-    <comp lib="13" loc="(2310,960)" name="reg_x16"/>
+    <comp lib="13" loc="(300,720)" name="mux_x16"/>
+    <comp lib="13" loc="(3010,620)" name="mux_x16"/>
+    <comp lib="13" loc="(580,670)" name="or16_x"/>
+    <comp lib="13" loc="(640,910)" name="not_x"/>
+    <comp lib="13" loc="(730,670)" name="not_x"/>
+    <comp lib="13" loc="(860,700)" name="or_x"/>
+    <comp lib="13" loc="(980,770)" name="not_x"/>
+    <comp lib="13" loc="(990,110)" name="mux_x"/>
+    <comp lib="13" loc="(990,230)" name="mux_x16"/>
+    <comp lib="13" loc="(990,350)" name="mux_x"/>
+    <comp lib="13" loc="(990,450)" name="mux_x"/>
+    <comp lib="13" loc="(990,540)" name="mux_x"/>
     <comp lib="14" loc="(420,510)" name="alu_16"/>
     <comp lib="4" loc="(2210,420)" name="RAM">
       <a name="addrWidth" val="14"/>
@@ -754,29 +789,29 @@
     <comp lib="8" loc="(2420,1975)" name="Text">
       <a name="text" val="0x0000"/>
     </comp>
-    <comp lib="8" loc="(260,776)" name="Text">
+    <comp lib="8" loc="(260,775)" name="Text">
       <a name="color" val="#d4217f"/>
       <a name="text" val="A*"/>
     </comp>
-    <comp lib="8" loc="(3514,1262)" name="Text">
+    <comp lib="8" loc="(3510,1260)" name="Text">
       <a name="text" val="X"/>
     </comp>
-    <comp lib="8" loc="(3560,1262)" name="Text">
+    <comp lib="8" loc="(3560,1260)" name="Text">
       <a name="text" val="Y"/>
     </comp>
-    <comp lib="8" loc="(3620,1272)" name="Text">
+    <comp lib="8" loc="(3620,1270)" name="Text">
       <a name="color" val="#d4217f"/>
       <a name="text" val="R"/>
     </comp>
-    <comp lib="8" loc="(3674,1272)" name="Text">
+    <comp lib="8" loc="(3670,1270)" name="Text">
       <a name="color" val="#82b366"/>
       <a name="text" val="G"/>
     </comp>
-    <comp lib="8" loc="(3721,1273)" name="Text">
+    <comp lib="8" loc="(3720,1270)" name="Text">
       <a name="color" val="#6c8ebf"/>
       <a name="text" val="B"/>
     </comp>
-    <comp lib="8" loc="(388,931)" name="Text">
+    <comp lib="8" loc="(385,930)" name="Text">
       <a name="color" val="#d4217f"/>
       <a name="text" val="Reg A"/>
     </comp>
@@ -1086,12 +1121,17 @@
     <wire from="(3450,1130)" to="(3480,1130)"/>
     <wire from="(3470,990)" to="(3470,1010)"/>
     <wire from="(3480,990)" to="(3480,1130)"/>
+    <wire from="(3490,1050)" to="(3500,1050)"/>
+    <wire from="(3490,1120)" to="(3490,1140)"/>
+    <wire from="(3490,1120)" to="(3500,1120)"/>
     <wire from="(3490,990)" to="(3490,1050)"/>
     <wire from="(350,180)" to="(350,240)"/>
     <wire from="(350,240)" to="(380,240)"/>
     <wire from="(350,250)" to="(350,260)"/>
     <wire from="(350,740)" to="(350,990)"/>
     <wire from="(350,990)" to="(1590,990)"/>
+    <wire from="(3500,1050)" to="(3500,1080)"/>
+    <wire from="(3500,1100)" to="(3500,1120)"/>
     <wire from="(3510,1190)" to="(3510,1210)"/>
     <wire from="(3510,990)" to="(3510,1170)"/>
     <wire from="(3520,1130)" to="(3560,1130)"/>
