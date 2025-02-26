@@ -3187,6 +3187,342 @@
     <wire from="(580,150)" to="(620,150)"/>
     <wire from="(70,140)" to="(100,140)"/>
   </circuit>
+  <circuit name="ini_basic">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="ini_basic"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(330,1870)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(330,1930)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(330,2000)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(330,2060)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(330,2130)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(330,2190)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(330,2260)" name="Pin">
+      <a name="appearance" val="classic"/>
+    </comp>
+    <comp lib="0" loc="(350,2510)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="width" val="2"/>
+    </comp>
+    <comp lib="0" loc="(360,1540)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="width" val="3"/>
+    </comp>
+    <comp lib="0" loc="(360,1560)" name="Pin">
+      <a name="appearance" val="classic"/>
+    </comp>
+    <comp lib="0" loc="(360,1790)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(360,2340)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(360,2360)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(360,2530)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(360,2550)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(360,2570)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(360,2590)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(360,2700)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="width" val="3"/>
+    </comp>
+    <comp lib="0" loc="(360,2720)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(360,2740)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(360,2760)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(360,2780)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(360,2800)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(360,2820)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(360,2840)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(360,2860)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(360,2980)" name="Pin">
+      <a name="appearance" val="classic"/>
+    </comp>
+    <comp lib="0" loc="(360,3000)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(360,3130)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="width" val="2"/>
+    </comp>
+    <comp lib="0" loc="(360,3150)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(360,3300)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="width" val="3"/>
+    </comp>
+    <comp lib="0" loc="(360,3320)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(580,1790)" name="Probe">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(580,1890)" name="Probe">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(580,2020)" name="Probe">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(580,2150)" name="Probe">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(580,2320)" name="Probe">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="radix" val="16"/>
+    </comp>
+    <comp lib="0" loc="(580,2510)" name="Probe">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="radix" val="16"/>
+    </comp>
+    <comp lib="0" loc="(580,2700)" name="Probe">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="radix" val="16"/>
+    </comp>
+    <comp lib="0" loc="(580,2980)" name="Probe">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="radix" val="16"/>
+    </comp>
+    <comp lib="0" loc="(580,3000)" name="Probe">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="radix" val="16"/>
+    </comp>
+    <comp lib="0" loc="(580,3130)" name="Probe">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="radix" val="16"/>
+    </comp>
+    <comp lib="0" loc="(580,3150)" name="Probe">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="radix" val="16"/>
+    </comp>
+    <comp lib="0" loc="(580,3170)" name="Probe">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="radix" val="16"/>
+    </comp>
+    <comp lib="0" loc="(580,3190)" name="Probe">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="radix" val="16"/>
+    </comp>
+    <comp lib="0" loc="(580,3300)" name="Probe">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="radix" val="16"/>
+    </comp>
+    <comp lib="0" loc="(580,3320)" name="Probe">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="radix" val="16"/>
+    </comp>
+    <comp lib="0" loc="(580,3340)" name="Probe">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="radix" val="16"/>
+    </comp>
+    <comp lib="0" loc="(580,3360)" name="Probe">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="radix" val="16"/>
+    </comp>
+    <comp lib="0" loc="(580,3380)" name="Probe">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="radix" val="16"/>
+    </comp>
+    <comp lib="0" loc="(580,3400)" name="Probe">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="radix" val="16"/>
+    </comp>
+    <comp lib="0" loc="(580,3420)" name="Probe">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="radix" val="16"/>
+    </comp>
+    <comp lib="0" loc="(580,3440)" name="Probe">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="radix" val="16"/>
+    </comp>
+    <comp loc="(580,1120)" name="mux8_vhd_x">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(580,1390)" name="dmux4_vhd_x">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(580,1540)" name="dmux8_vhd_x">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(580,1790)" name="not_vhd_x16">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(580,1890)" name="and_vhd_x16">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(580,2020)" name="or_vhd_x16">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(580,210)" name="not_vhd_x">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(580,2150)" name="xor_vhd_x16">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(580,2320)" name="mux_hdl_x16">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(580,2510)" name="mux4_vhd_x16">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(580,2700)" name="mux8_vhd_x16">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(580,2980)" name="dmux_vhd_x16">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(580,300)" name="and_vhd_x">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(580,3130)" name="dmux4_vhd_x16">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(580,3300)" name="dmux8_vhd_x16">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(580,400)" name="or_vhd_x">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(580,510)" name="not_zero_vhd_x16">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(580,590)" name="xor_vhd_x">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(580,700)" name="mux_vhd_x">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(580,840)" name="dmux_vhd_x">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(580,90)" name="nand_vhd_x">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(580,950)" name="mux4_vhd_x">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <wire from="(330,1870)" to="(350,1870)"/>
+    <wire from="(330,1930)" to="(340,1930)"/>
+    <wire from="(330,2000)" to="(350,2000)"/>
+    <wire from="(330,2060)" to="(340,2060)"/>
+    <wire from="(330,2130)" to="(350,2130)"/>
+    <wire from="(330,2190)" to="(340,2190)"/>
+    <wire from="(330,2260)" to="(360,2260)"/>
+    <wire from="(340,1910)" to="(340,1930)"/>
+    <wire from="(340,1910)" to="(360,1910)"/>
+    <wire from="(340,2040)" to="(340,2060)"/>
+    <wire from="(340,2040)" to="(360,2040)"/>
+    <wire from="(340,2170)" to="(340,2190)"/>
+    <wire from="(340,2170)" to="(360,2170)"/>
+    <wire from="(350,1870)" to="(350,1890)"/>
+    <wire from="(350,1890)" to="(360,1890)"/>
+    <wire from="(350,2000)" to="(350,2020)"/>
+    <wire from="(350,2020)" to="(360,2020)"/>
+    <wire from="(350,2130)" to="(350,2150)"/>
+    <wire from="(350,2150)" to="(360,2150)"/>
+    <wire from="(350,2510)" to="(360,2510)"/>
+    <wire from="(360,2260)" to="(360,2320)"/>
+  </circuit>
   <vhdl name="nand_vhd_x">library IEEE;
 use IEEE.std_logic_1164.all;
 
@@ -3633,5 +3969,459 @@ begin
     output_high : dmux4_vhd_x port map (S(1 downto 0), H, O7, O6, O5, O4);
     output_low  : dmux4_vhd_x port map (S(1 downto 0), L, O3, O2, O1, O0);
 end architecture default;
+</vhdl>
+  <vhdl name="not_vhd_x16">library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity not_vhd_x16 is
+    Port (
+        I: in   STD_LOGIC_VECTOR (15 downto 0);
+        O: out  STD_LOGIC_VECTOR (15 downto 0)
+    );
+end not_vhd_x16;
+
+architecture default of not_vhd_x16 is
+    component not_vhd_x is
+        Port (
+            I: in   STD_LOGIC;
+            O: out  STD_LOGIC
+        );
+    end component;
+
+    -- signal NOT_0: STD_LOGIC;
+    -- signal NOT_1: STD_LOGIC;
+    -- signal NOT_2: STD_LOGIC;
+    -- signal NOT_3: STD_LOGIC;
+    -- signal NOT_4: STD_LOGIC;
+    -- signal NOT_5: STD_LOGIC;
+    -- signal NOT_6: STD_LOGIC;
+    -- signal NOT_7: STD_LOGIC;
+    -- signal NOT_8: STD_LOGIC;
+    -- signal NOT_9: STD_LOGIC;
+    -- signal NOT_10: STD_LOGIC;
+    -- signal NOT_11: STD_LOGIC;
+    -- signal NOT_12: STD_LOGIC;
+    -- signal NOT_13: STD_LOGIC;
+    -- signal NOT_14: STD_LOGIC;
+    -- signal NOT_15: STD_LOGIC;
+
+begin
+    reverse_0: not_vhd_x port map (I(0), O(0));
+    reverse_1: not_vhd_x port map (I(1), O(1));
+    reverse_2: not_vhd_x port map (I(2), O(2));
+    reverse_3: not_vhd_x port map (I(3), O(3));
+    reverse_4: not_vhd_x port map (I(4), O(4));
+    reverse_5: not_vhd_x port map (I(5), O(5));
+    reverse_6: not_vhd_x port map (I(6), O(6));
+    reverse_7: not_vhd_x port map (I(7), O(7));
+    reverse_8: not_vhd_x port map (I(8), O(8));
+    reverse_9: not_vhd_x port map (I(9), O(9));
+    reverse_10: not_vhd_x port map (I(10), O(10));
+    reverse_11: not_vhd_x port map (I(11), O(11));
+    reverse_12: not_vhd_x port map (I(12), O(12));
+    reverse_13: not_vhd_x port map (I(13), O(13));
+    reverse_14: not_vhd_x port map (I(14), O(14));
+    reverse_15: not_vhd_x port map (I(15), O(15));
+end default;
+</vhdl>
+  <vhdl name="and_vhd_x16">library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity and_vhd_x16 is
+    Port (
+        A: in   STD_LOGIC_VECTOR (15 downto 0);
+        B: in   STD_LOGIC_VECTOR (15 downto 0);
+        O: out  STD_LOGIC_VECTOR (15 downto 0)
+    );
+end and_vhd_x16;
+
+architecture default of and_vhd_x16 is
+    component and_vhd_x is
+        Port (
+            A: in   STD_LOGIC;
+            B: in   STD_LOGIC;
+            Y: out  STD_LOGIC
+        );
+    end component;
+
+begin
+    and_0: and_vhd_x port map (A(0), B(0), O(0));
+    and_1: and_vhd_x port map (A(1), B(1), O(1));
+    and_2: and_vhd_x port map (A(2), B(2), O(2));
+    and_3: and_vhd_x port map (A(3), B(3), O(3));
+    and_4: and_vhd_x port map (A(4), B(4), O(4));
+    and_5: and_vhd_x port map (A(5), B(5), O(5));
+    and_6: and_vhd_x port map (A(6), B(6), O(6));
+    and_7: and_vhd_x port map (A(7), B(7), O(7));
+    and_8: and_vhd_x port map (A(8), B(8), O(8));
+    and_9: and_vhd_x port map (A(9), B(9), O(9));
+    and_10: and_vhd_x port map (A(10), B(10), O(10));
+    and_11: and_vhd_x port map (A(11), B(11), O(11));
+    and_12: and_vhd_x port map (A(12), B(12), O(12));
+    and_13: and_vhd_x port map (A(13), B(13), O(13));
+    and_14: and_vhd_x port map (A(14), B(14), O(14));
+    and_15: and_vhd_x port map (A(15), B(15), O(15));
+end default;
+</vhdl>
+  <vhdl name="or_vhd_x16">library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity or_vhd_x16 is
+    Port (
+        A: in   STD_LOGIC_VECTOR (15 downto 0);
+        B: in   STD_LOGIC_VECTOR (15 downto 0);
+        O: out  STD_LOGIC_VECTOR (15 downto 0)
+    );
+end or_vhd_x16;
+
+architecture default of or_vhd_x16 is
+    component or_vhd_x is
+        Port (
+            A: in   STD_LOGIC;
+            B: in   STD_LOGIC;
+            O: out  STD_LOGIC
+        );
+    end component;
+
+begin
+    or_0: or_vhd_x port map (A(0), B(0), O(0));
+    or_1: or_vhd_x port map (A(1), B(1), O(1));
+    or_2: or_vhd_x port map (A(2), B(2), O(2));
+    or_3: or_vhd_x port map (A(3), B(3), O(3));
+    or_4: or_vhd_x port map (A(4), B(4), O(4));
+    or_5: or_vhd_x port map (A(5), B(5), O(5));
+    or_6: or_vhd_x port map (A(6), B(6), O(6));
+    or_7: or_vhd_x port map (A(7), B(7), O(7));
+    or_8: or_vhd_x port map (A(8), B(8), O(8));
+    or_9: or_vhd_x port map (A(9), B(9), O(9));
+    or_10: or_vhd_x port map (A(10), B(10), O(10));
+    or_11: or_vhd_x port map (A(11), B(11), O(11));
+    or_12: or_vhd_x port map (A(12), B(12), O(12));
+    or_13: or_vhd_x port map (A(13), B(13), O(13));
+    or_14: or_vhd_x port map (A(14), B(14), O(14));
+    or_15: or_vhd_x port map (A(15), B(15), O(15));
+end default;
+</vhdl>
+  <vhdl name="xor_vhd_x16">library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity xor_vhd_x16 is
+    Port (
+        A: in   STD_LOGIC_VECTOR (15 downto 0);
+        B: in   STD_LOGIC_VECTOR (15 downto 0);
+        O: out  STD_LOGIC_VECTOR (15 downto 0)
+    );
+end xor_vhd_x16;
+
+architecture default of xor_vhd_x16 is
+    component xor_vhd_x is
+        Port (
+            A: in   STD_LOGIC;
+            B: in   STD_LOGIC;
+            O: out  STD_LOGIC
+        );
+    end component;
+
+begin
+    xor_1: xor_vhd_x port map (A(1), B(1), O(1));
+    xor_0: xor_vhd_x port map (A(0), B(0), O(0));
+    xor_2: xor_vhd_x port map (A(2), B(2), O(2));
+    xor_3: xor_vhd_x port map (A(3), B(3), O(3));
+    xor_4: xor_vhd_x port map (A(4), B(4), O(4));
+    xor_5: xor_vhd_x port map (A(5), B(5), O(5));
+    xor_6: xor_vhd_x port map (A(6), B(6), O(6));
+    xor_7: xor_vhd_x port map (A(7), B(7), O(7));
+    xor_8: xor_vhd_x port map (A(8), B(8), O(8));
+    xor_9: xor_vhd_x port map (A(9), B(9), O(9));
+    xor_10: xor_vhd_x port map (A(10), B(10), O(10));
+    xor_11: xor_vhd_x port map (A(11), B(11), O(11));
+    xor_12: xor_vhd_x port map (A(12), B(12), O(12));
+    xor_13: xor_vhd_x port map (A(13), B(13), O(13));
+    xor_14: xor_vhd_x port map (A(14), B(14), O(14));
+    xor_15: xor_vhd_x port map (A(15), B(15), O(15));
+end default;
+</vhdl>
+  <vhdl name="mux_hdl_x16">library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity mux_hdl_x16 is
+    Port (
+        S:  in  STD_LOGIC;
+        D1: in  STD_LOGIC_VECTOR (15 downto 0);
+        D0: in  STD_LOGIC_VECTOR (15 downto 0);
+        O:  out STD_LOGIC_VECTOR (15 downto 0)
+    );
+end mux_hdl_x16;
+
+architecture default of mux_hdl_x16 is
+    component mux_vhd_x is
+        Port (
+            S   : in    STD_LOGIC;
+            D1  : in    STD_LOGIC;
+            D0  : in    STD_LOGIC;
+            O   : out   STD_LOGIC
+        );
+    end component;
+
+begin
+    mux_0: mux_vhd_x port map (S, D1(0), D0(0), O(0));
+    mux_1: mux_vhd_x port map (S, D1(1), D0(1), O(1));
+    mux_2: mux_vhd_x port map (S, D1(2), D0(2), O(2));
+    mux_3: mux_vhd_x port map (S, D1(3), D0(3), O(3));
+    mux_4: mux_vhd_x port map (S, D1(4), D0(4), O(4));
+    mux_5: mux_vhd_x port map (S, D1(5), D0(5), O(5));
+    mux_6: mux_vhd_x port map (S, D1(6), D0(6), O(6));
+    mux_7: mux_vhd_x port map (S, D1(7), D0(7), O(7));
+    mux_8: mux_vhd_x port map (S, D1(8), D0(8), O(8));
+    mux_9: mux_vhd_x port map (S, D1(9), D0(9), O(9));
+    mux_10: mux_vhd_x port map (S, D1(10), D0(10), O(10));
+    mux_11: mux_vhd_x port map (S, D1(11), D0(11), O(11));
+    mux_12: mux_vhd_x port map (S, D1(12), D0(12), O(12));
+    mux_13: mux_vhd_x port map (S, D1(13), D0(13), O(13));
+    mux_14: mux_vhd_x port map (S, D1(14), D0(14), O(14));
+    mux_15: mux_vhd_x port map (S, D1(15), D0(15), O(15));
+end default;
+</vhdl>
+  <vhdl name="mux4_vhd_x16">library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity mux4_vhd_x16 is
+    Port (
+        S:  in  STD_LOGIC_VECTOR (1 downto 0);
+        D3: in  STD_LOGIC_VECTOR (15 downto 0);
+        D2: in  STD_LOGIC_VECTOR (15 downto 0);
+        D1: in  STD_LOGIC_VECTOR (15 downto 0);
+        D0: in  STD_LOGIC_VECTOR (15 downto 0);
+        O:  out STD_LOGIC_VECTOR (15 downto 0)
+    );
+end mux4_vhd_x16;
+
+architecture default of mux4_vhd_x16 is
+    component mux_hdl_x16 is
+        Port (
+            S:  in  STD_LOGIC;
+            D1: in  STD_LOGIC_VECTOR (15 downto 0);
+            D0: in  STD_LOGIC_VECTOR (15 downto 0);
+            O:  out STD_LOGIC_VECTOR (15 downto 0)
+        );
+    end component;
+
+    signal H: STD_LOGIC_VECTOR (15 downto 0);
+    signal L: STD_LOGIC_VECTOR (15 downto 0);
+
+begin
+    mux_h : mux_hdl_x16 port map (S(0), D3, D2, H);
+    mux_l : mux_hdl_x16 port map (S(0), D1, D0, L);
+    last  : mux_hdl_x16 port map (S(1), H, L, O);
+end default;
+</vhdl>
+  <vhdl name="mux8_vhd_x16">library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity mux8_vhd_x16 is
+    Port (
+        S   : in    STD_LOGIC_VECTOR (2 downto 0);
+        D7  : in    STD_LOGIC_VECTOR (15 downto 0);
+        D6  : in    STD_LOGIC_VECTOR (15 downto 0);
+        D5  : in    STD_LOGIC_VECTOR (15 downto 0);
+        D4  : in    STD_LOGIC_VECTOR (15 downto 0);
+        D3  : in    STD_LOGIC_VECTOR (15 downto 0);
+        D2  : in    STD_LOGIC_VECTOR (15 downto 0);
+        D1  : in    STD_LOGIC_VECTOR (15 downto 0);
+        D0  : in    STD_LOGIC_VECTOR (15 downto 0);
+        O   : out   STD_LOGIC_VECTOR (15 downto 0)
+    );
+end mux8_vhd_x16;
+
+architecture default of mux8_vhd_x16 is
+    component mux_hdl_x16 is
+        Port (
+            S:  in  STD_LOGIC;
+            D1: in  STD_LOGIC_VECTOR (15 downto 0);
+            D0: in  STD_LOGIC_VECTOR (15 downto 0);
+            O:  out STD_LOGIC_VECTOR (15 downto 0)
+        );
+    end component;
+    component mux4_vhd_x16 is
+        Port (
+            S:  in  STD_LOGIC_VECTOR (1 downto 0);
+            D3: in  STD_LOGIC_VECTOR (15 downto 0);
+            D2: in  STD_LOGIC_VECTOR (15 downto 0);
+            D1: in  STD_LOGIC_VECTOR (15 downto 0);
+            D0: in  STD_LOGIC_VECTOR (15 downto 0);
+            O:  out STD_LOGIC_VECTOR (15 downto 0)
+        );
+    end component;
+
+    signal H: STD_LOGIC_VECTOR (15 downto 0);
+    signal L: STD_LOGIC_VECTOR (15 downto 0);
+
+begin
+    get_high : mux4_vhd_x16 port map (S(1 downto 0), D7, D6, D5, D4, H);
+    get_low  : mux4_vhd_x16 port map (S(1 downto 0), D3, D2, D1, D0, L);
+    last     : mux_hdl_x16 port map (S(2), H, L, O);
+end default;
+</vhdl>
+  <vhdl name="dmux_hdl_x16">library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity dmux_hdl_x16 is
+    Port (
+        S:  in  STD_LOGIC;
+        D1: in  STD_LOGIC_VECTOR (15 downto 0);
+        D0: in  STD_LOGIC_VECTOR (15 downto 0);
+        O:  out STD_LOGIC_VECTOR (15 downto 0)
+    );
+end dmux_hdl_x16;
+
+architecture default of dmux_hdl_x16 is
+    component dmux_vhd_x is
+        Port (
+            S   : in    STD_LOGIC;
+            D1  : in    STD_LOGIC;
+            D0  : in    STD_LOGIC;
+            O   : out   STD_LOGIC
+        );
+    end component;
+
+begin
+    dmux_0: dmux_vhd_x port map (S, D1(0), D0(0), O(0));
+    dmux_1: dmux_vhd_x port map (S, D1(1), D0(1), O(1));
+    dmux_2: dmux_vhd_x port map (S, D1(2), D0(2), O(2));
+    dmux_3: dmux_vhd_x port map (S, D1(3), D0(3), O(3));
+    dmux_4: dmux_vhd_x port map (S, D1(4), D0(4), O(4));
+    dmux_5: dmux_vhd_x port map (S, D1(5), D0(5), O(5));
+    dmux_6: dmux_vhd_x port map (S, D1(6), D0(6), O(6));
+    dmux_7: dmux_vhd_x port map (S, D1(7), D0(7), O(7));
+    dmux_8: dmux_vhd_x port map (S, D1(8), D0(8), O(8));
+    dmux_9: dmux_vhd_x port map (S, D1(9), D0(9), O(9));
+    dmux_10: dmux_vhd_x port map (S, D1(10), D0(10), O(10));
+    dmux_11: dmux_vhd_x port map (S, D1(11), D0(11), O(11));
+    dmux_12: dmux_vhd_x port map (S, D1(12), D0(12), O(12));
+    dmux_13: dmux_vhd_x port map (S, D1(13), D0(13), O(13));
+    dmux_14: dmux_vhd_x port map (S, D1(14), D0(14), O(14));
+    dmux_15: dmux_vhd_x port map (S, D1(15), D0(15), O(15));
+end default;
+</vhdl>
+  <vhdl name="dmux_vhd_x16">library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity dmux_vhd_x16 is
+    Port (
+        S:  in   STD_LOGIC;
+        D:  in   STD_LOGIC_VECTOR (15 downto 0);
+        O1: out  STD_LOGIC_VECTOR (15 downto 0);
+        O0: out  STD_LOGIC_VECTOR (15 downto 0)
+    );
+end dmux_vhd_x16;
+
+architecture default of dmux_vhd_x16 is
+    component dmux_vhd_x is
+        Port (
+            S:  in   STD_LOGIC;
+            D:  in   STD_LOGIC;
+            O1: out  STD_LOGIC;
+            O0: out  STD_LOGIC
+        );
+    end component;
+
+begin
+    dmux_0: dmux_vhd_x port map (S, D(0), O1(0), O0(0));
+    dmux_1: dmux_vhd_x port map (S, D(1), O1(1), O0(1));
+    dmux_2: dmux_vhd_x port map (S, D(2), O1(2), O0(2));
+    dmux_3: dmux_vhd_x port map (S, D(3), O1(3), O0(3));
+    dmux_4: dmux_vhd_x port map (S, D(4), O1(4), O0(4));
+    dmux_5: dmux_vhd_x port map (S, D(5), O1(5), O0(5));
+    dmux_6: dmux_vhd_x port map (S, D(6), O1(6), O0(6));
+    dmux_7: dmux_vhd_x port map (S, D(7), O1(7), O0(7));
+    dmux_8: dmux_vhd_x port map (S, D(8), O1(8), O0(8));
+    dmux_9: dmux_vhd_x port map (S, D(9), O1(9), O0(9));
+    dmux_10: dmux_vhd_x port map (S, D(10), O1(10), O0(10));
+    dmux_11: dmux_vhd_x port map (S, D(11), O1(11), O0(11));
+    dmux_12: dmux_vhd_x port map (S, D(12), O1(12), O0(12));
+    dmux_13: dmux_vhd_x port map (S, D(13), O1(13), O0(13));
+    dmux_14: dmux_vhd_x port map (S, D(14), O1(14), O0(14));
+    dmux_15: dmux_vhd_x port map (S, D(15), O1(15), O0(15));
+end default;
+</vhdl>
+  <vhdl name="dmux4_vhd_x16">library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity dmux4_vhd_x16 is
+    Port (
+        S:  in   STD_LOGIC_VECTOR (1 downto 0);
+        D:  in   STD_LOGIC_VECTOR (15 downto 0);
+        O3: out  STD_LOGIC_VECTOR (15 downto 0);
+        O2: out  STD_LOGIC_VECTOR (15 downto 0);
+        O1: out  STD_LOGIC_VECTOR (15 downto 0);
+        O0: out  STD_LOGIC_VECTOR (15 downto 0)
+    );
+end dmux4_vhd_x16;
+
+architecture default of dmux4_vhd_x16 is
+    component dmux_vhd_x16 is
+        Port (
+            S:  in   STD_LOGIC;
+            D:  in   STD_LOGIC_VECTOR (15 downto 0);
+            O1: out  STD_LOGIC_VECTOR (15 downto 0);
+            O0: out  STD_LOGIC_VECTOR (15 downto 0)
+        );
+    end component;
+
+    signal H: STD_LOGIC_VECTOR (15 downto 0);
+    signal L: STD_LOGIC_VECTOR (15 downto 0);
+
+begin
+    locate      : dmux_vhd_x16 port map (S(1), D, H, L);
+    output_high : dmux_vhd_x16 port map (S(0), H, O3, O2);
+    output_low  : dmux_vhd_x16 port map (S(0), L, O1, O0);
+end default;
+</vhdl>
+  <vhdl name="dmux8_vhd_x16">library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity dmux8_vhd_x16 is
+    Port (
+        S:  in   STD_LOGIC_VECTOR (2 downto 0);
+        D:  in   STD_LOGIC_VECTOR (15 downto 0);
+        O7: out  STD_LOGIC_VECTOR (15 downto 0);
+        O6: out  STD_LOGIC_VECTOR (15 downto 0);
+        O5: out  STD_LOGIC_VECTOR (15 downto 0);
+        O4: out  STD_LOGIC_VECTOR (15 downto 0);
+        O3: out  STD_LOGIC_VECTOR (15 downto 0);
+        O2: out  STD_LOGIC_VECTOR (15 downto 0);
+        O1: out  STD_LOGIC_VECTOR (15 downto 0);
+        O0: out  STD_LOGIC_VECTOR (15 downto 0)
+    );
+end dmux8_vhd_x16;
+
+architecture default of dmux8_vhd_x16 is
+    component dmux_vhd_x16 is
+        Port (
+            S:  in   STD_LOGIC;
+            D:  in   STD_LOGIC_VECTOR (15 downto 0);
+            O1: out  STD_LOGIC_VECTOR (15 downto 0);
+            O0: out  STD_LOGIC_VECTOR (15 downto 0)
+        );
+    end component;
+    component dmux4_vhd_x16 is
+        Port (
+            S:  in   STD_LOGIC_VECTOR (1 downto 0);
+            D:  in   STD_LOGIC_VECTOR (15 downto 0);
+            O3: out  STD_LOGIC_VECTOR (15 downto 0);
+            O2: out  STD_LOGIC_VECTOR (15 downto 0);
+            O1: out  STD_LOGIC_VECTOR (15 downto 0);
+            O0: out  STD_LOGIC_VECTOR (15 downto 0)
+        );
+    end component;
+
+    signal H: STD_LOGIC_VECTOR (15 downto 0);
+    signal L: STD_LOGIC_VECTOR (15 downto 0);
+
+begin
+    locate      : dmux_vhd_x16 port map (S(2), D, H, L);
+    output_high : dmux4_vhd_x16 port map (S(1 downto 0), H, O7, O6, O5, O4);
+    output_low  : dmux4_vhd_x16 port map (S(1 downto 0), L, O3, O2, O1, O0);
+end default;
 </vhdl>
 </project>
